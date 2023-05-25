@@ -1,3 +1,10 @@
+# My new projects:
+
+## Name
+### https://wetresfall.github.io/rolling-scopes-school/
+
+
+
 # My old newbie projects:
 
 ## Vertical Slider (js task)
