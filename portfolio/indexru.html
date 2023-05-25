@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/normalize.css"/>
+  <link rel="stylesheet" href="./css/style.css"/>
+  <link rel="icon" href="./assets/favicon.ico">
+  <title>portfolio</title>
+</head>
+<body>
+  
+  <header class="header">
+    <div class="container">
+        <a class="logo-link" href="./index.html" aria-label="Link to home page">
+          <svg class="icon" width="50" height="50">
+              <use xlink:href="./assets/svg/sprite.svg#logo"></use>
+          </svg>
+        </a>
+        
+        <!-- Rounded switch -->
+        <p>&nbsp;&nbsp;&nbsp;Тема:</p>
+        <a class="darkk1" href="./indexrudark.html"><p>&nbsp;&nbsp;&nbsp;Светлая</p></a>
+        <a class="darkk" href="./indexru.html"><p>&nbsp;&nbsp;&nbsp;Темная&nbsp;&nbsp;&nbsp;</p></a>
+        <!-- <label class="switch">
+          <input type="checkbox">
+          <span class="slider round"></span>
+        </label>       -->
+
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#skills" class="nav-link">Навыки</a></li>
+          <li class="nav-item"><a href="#portfolio" class="nav-link">Портфолио</a></li>
+          <li class="nav-item"><a href="#video" class="nav-link">Видео</a></li>
+          <li class="nav-item"><a href="#price" class="nav-link">Цена</a></li>
+          <li class="nav-item"><a href="#contacts" class="nav-link">Контакты</a></li>
+        </ul>
+      </nav>
+      <div class="lang_switch">
+        <a href="./index.html" class="lang_switch-en en1">en</a>
+        <span>&nbsp;/&nbsp;</span>
+        <a href="./indexru.html" class="lang_switch-ru ru1">ru</a>
+      </div>
+
+      <style type="text/css">
+        .en1 {
+          color: white;
+        }
+        .ru1 { 
+          color: #BDAE82;
+        }
+       </style>
+
+
+
+
+
+
+
+    </div>
+  </header>
+
+
+
+  <nav class="show" role='navigation'>
+    <div id="menuToggle">
+
+      <input type="checkbox" />
+      
+      <span></span>
+      <span></span>
+      <span></span>
+
+      <ul id="menu">
+        <li><a href="#skills">Навыки</a></li>
+        <li><a href="#portfolio">Портфолио</a></li>
+        <li><a href="#video">Видео</a></li>
+        <li><a href="#price">Цена</a></li>
+        <li><a href="#contacts">Контакты</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+
+  <main class="main">
+    <div class="container">
+      <section class="section_hero">
+        <h1 class="alexa_rise">Алекса Райс</h1>
+        <p class="p-in-s-hero">Сохраните искренние эмоции, романтические переживания <br class="br-adap">и <br class="br-no-adap">счастливые моменты жизни вместе с <br class="br-adap">профессиональным <br class="br-no-adap">фотографом</p>
+        <button class="button-one">Пригласить</button>
+      </section>
+      <section class="section_skills"><a id="skills"></a>
+        <div class="for-line"> 
+            <h2 class="section-title">Навыки</h2>
+        </div>
+        <div class="skills-item-big">
+          <div class="skill-item-small">
+            <img class="img-skills" src="./assets/svg/skills/camera1.svg" alt="camera">
+            <h3 class="h3_skills">Фотография</h3>
+            <p class="p2_skills">Высококачественные фото в студии <a class="br-fix"><br></a>и на природе</p>
+          </div>
+          <div class="skill-item-small">
+            <img class="img-skills" src="./assets/svg/skills/video1.svg" alt="video">
+            <h3 class="h3_skills">Видеосъемка</h3>
+            <p class="p2_skills">Запечатлите лучшие моменты, <a class="br-fix"><br></a>чтобы они всегда оставались с вами</p>
+          </div>
+          <div class="skill-item-small">
+            <img class="img-skills" src="./assets/svg/skills/image1.svg" alt="image">
+            <h3 class="h3_skills">Ретушь</h3>
+            <p class="p2_skills">Я стремлюсь к тому, чтобы фотография <a class="br-fix"><br></a>превосходила реальность </p>
+          </div>
+          <div class="skill-item-small">
+            <img class="img-skills" src="./assets/svg/skills/mic1.svg" alt="mic">
+            <h3 class="h3_skills">Звук</h3>
+            <p class="p2_skills">Профессиональная запись звука <a class="br-fix"><br></a> для видео, рекламы, портфолио</p>
+          </div>
+        </div>
+      </section>
+      <section class="section_portfolio"><a id="portfolio"></a>
+        <div class="for-line"> 
+            <h2 class="section-title section-title1">Портфолио</h2>
+        </div>
+        <div class='portfolio-btns'>
+          <button class="button-two">Зима</button>
+          <button class="button-two">Весна</button>
+          <button class="button-two">Лето</button>
+          <button class="button-two active">Осень</button>
+      </div>
+      <div class="photos">
+        <img src="./assets/img/portfolio/portfolio-img.jpg" alt="photo1">
+        <img src="./assets/img/portfolio/portfolio-img(1).jpg" alt="photo2">
+        <img src="./assets/img/portfolio/portfolio-img(2).jpg" alt="photo3">
+        <img src="./assets/img/portfolio/portfolio-img(3).jpg" alt="photo4">
+        <img src="./assets/img/portfolio/portfolio-img(4).jpg" alt="photo5">
+        <img src="./assets/img/portfolio/portfolio-img(5).jpg" alt="photo6">
+      </div>
+      </section>
+      <section class="section_video"><a id="video"></a>
+        <div class="for-line"> 
+            <h2 class="section-title section-title2">Видео</h2>
+        </div>
+        <div class="video-player">
+          <div class='play'><img src="./assets/svg/Play_hover.svg" alt="play"></div><button class='button-play1'></button>
+      </div>
+      </section>
+      <section class="section_price"><a id="price"></a>
+        <div class="for-line"> 
+            <h2 class="section-title section-title3">Цена</h2>
+        </div>
+
+        <div class="price">
+          <div class="price-item">
+              <h4 class="price-title">Standard</h4>
+              <p class="price-price">500 &#36;</p>
+              <div class="price-block">
+                <p class="price-text">
+                  Одна локация<br>
+                  120 цветных фото<br>
+                  12 отретушированных фото<br>
+                  Готовность через 2-3 недели<br>
+                  Макияж, визаж<br>
+                </p>
+              </div>
+              <div class="price-button-block">
+                  <button class="price-button">Заказать съемку</button>
+              </div>
+          </div>
+          <div class="price-item">
+              <h4 class="price-title">Premium</h4>
+              <p class="price-price">700 &#36;</p>
+              <div class="price-block">
+                  <p class="price-text">
+                    Одна-две локации<br>
+                    200 цветных фото<br>
+                    20 отретушированных фото<br>
+                    Готовность через 1-2 недели<br>
+                    Макияж, визаж<br>
+                  </p>
+              </div>
+              <div class="price-button-block">
+                  <button class="price-button">Заказать съемку</button>
+              </div>
+          </div>
+          <div class="price-item price-item3">
+              <h4 class="price-title">Gold</h4>
+              <p class="price-price">1000 &#36;</p>
+              <div class="price-block">
+                <p class="price-text">
+                  Три локации и больше<br>
+                  300 цветных фото<br>
+                  50 отретушированных фото<br>
+                  Готовность через 1 неделю<br>
+                  Макияж, визаж, <span class="hidespan">&nbsp</span>прическа<br>
+                </p>
+              </div>
+              <div class="price-button-block">
+                  <button class="price-button">Заказать съемку</button>
+              </div>
+          </div>
+          </div>
+
+      </section>
+      <section class="section_contacts"><a id="contacts"></a>
+        <div class="form">
+          <h2 class="section-title">Свяжитесь&nbsp;со мной</h2>
+          <div><input class="email" type="email" placeholder="   E-mail"></div>
+          <div><input class="tel" type="tel" placeholder="   Phone"></div>
+          <form action="./js/index.js">
+            <textarea class="message" placeholder="   Message"></textarea><br>
+            <button class="send">Отправить</button>
+          </form>
+        </div>
+      </section>
+      
+      <footer class="footer">
+        <div class="container">
+          <div class="footer-flex">
+            <div class='about-block'>
+                <span class="about">©</span>
+                <span class="about">2022</span>
+                <span><a class="about" href="https://github.com/wetresfall">github</a></span>
+            </div>
+            <div class="rs1">
+                <span><a class="rs" href="https://rs.school/js-stage0/"> Rolling Scopes School</a></span>
+            </div>
+            <div class="social-fix">
+            <ul class="social">
+              <li><a href="#">
+                <svg class="icon q">
+                <use xlink:href="./assets/svg/sprite.svg#inst 1"></use>
+                </svg>
+              </a></li>
+              <li><a href="#">
+                <svg class="icon q">
+                  <use xlink:href="./assets/svg/sprite.svg#fb 1"></use>
+                </svg>
+              </a></li>
+              <li><a href="#">
+                <svg class="icon q">
+                  <use xlink:href="./assets/svg/sprite.svg#tw 1"></use>
+                </svg>
+              </a></li>
+              <li><a href="#">
+                <svg class="icon q">
+                  <use xlink:href="./assets/svg/sprite.svg#pinterest 1"></use>
+                </svg>
+              </a></li>
+            </ul>
+          </div>
+          </div>
+        </div>
+      </footer>
+    </div></main>
+
+  <script src="./js/index.js"></script>
+
+</body>
+</html>

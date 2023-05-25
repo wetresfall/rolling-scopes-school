@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Merriweather:wght@300;400;700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="icon" href="./assets/favicon.ico">
+  <title>custom-video</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <h2 class="section-title">
+        <span data-i18="video">Video</span>
+      </h2>
+    </div>
+  </header>
+  <main class="main">
+    <div id="videoPlayer">
+      <video id="video" src="./video/video.mp4"></video>
+      <div id="controls">
+          <div class="video-track">
+              <div class="timeline"></div>
+          </div>
+          <div class="buttons">
+              <button class="play">Play</button>
+              <button class="pause">Pause</button>
+              <button class="rewind">&#60;rewind</button>
+              <button class="forward">forward&#62;</button>
+          </div>
+      </div>
+  </div>
+    <video class="geshka" src="./video/video.mp4" controls=""></video>
+    <section class="video" id="video">
+      <div class="container">
+        <div class="video-player">
+          <div class="poster"></div>
+            <video class="viewer" src="./assets/video/video.mp4"></video>
+            <div class="play-btn"></div>        
+          <div class="controls">
+            <div class="play-icon play"></div>
+            <input type="range" value="40" min="0" max="100" step="1" class="progress">
+            <div class="play-icon volume-icon"></div>
+            <input type="range" value="40" min="0" max="100" step="1" class="volume">            
+          </div>
+        </div>
+    </section>    
+  </main>
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-data">
+        <p class="copyright">©</p>
+        <p class="year">2022</p>
+        <a class="github-username" href="https://github.com/wetresfall" target="_blank" rel="noopener noreferrer">github</a>
+      </div>
+      <a href="https://rs.school/js-stage0/" class="rss"> Rolling Scopes School </a>
+    </div>
+  </footer>
+  <script type="module" src="./index.js"></script>
+</body>
+</html>

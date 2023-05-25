@@ -1,5 +1,18 @@
-# My Rolling Scopes School Certificates:
+# My old newbie projects:
 
-![1](https://github.com/wetresfall/rolling-scopes-school/assets/77758805/a6b937ea-2f72-4ce9-a749-0edeff32d708)
+## Vertical Slider (js task)
+### https://wetresfall.github.io/rolling-scopes-school/vertical-slider.old/index.html
 
-![0](https://github.com/wetresfall/rolling-scopes-school/assets/77758805/31bf7008-cde7-491f-97f6-85a586df433f)
+## RS School CV (modified for trainee)
+### https://wetresfall.github.io/rolling-scopes-school/rsschool-cv.old/index.html
+
+## Wildlife (first layout)
+### https://wetresfall.github.io/rolling-scopes-school/wildlife/index.html
+
+## Portfolio ('responsive')
+### https://wetresfall.github.io/rolling-scopes-school/portfolio/index.html
+### https://wetresfall.github.io/rolling-scopes-school/portfolio/custom-video-player/index.html (unfinished)
+
+## Museum (not responsive)
+### https://wetresfall.github.io/rolling-scopes-school/museum/index.html
+### https://wetresfall.github.io/rolling-scopes-school/museum/custom-video-player/index.html (unfinished)

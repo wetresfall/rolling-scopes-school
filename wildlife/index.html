@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Wildlife</title>
+</head>
+<body>
+    <header id="about" class="header">
+        <div class="wrapper">
+            <div class="header__row">
+                <div class="logo">
+                    <a class="logo__link" href="index.html" arial-label="Link to home page">
+                        <img class="logo__image" src="./assets/images/logo.svg" alt="logotype">
+                    </a>
+                    <h1 class="logo__title">
+                        <a class="logo__link" href="index.html" aria-label="Link to home page">wildlife</a>
+                    </h1>
+                </div>
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__item"><a href="#" class="menu__link">Blog</a></li>
+                        <li class="menu__item"><a href="#" class="menu__link">Contacts</a></li>
+                        <li class="menu__item menu__item_search"></li>
+                        <li class="menu__item menu__item_sign-in"><button class="menu__link menu__link_btn">Sign in</button></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="survival">
+            <div class="survival__bg">
+                <div class="wrapper">
+                    <div class="survival__content">
+                        <h2 class="survival__caption">Survival</h2>
+                            <p class="survival__text">What this means is that we exist to help protect our environment and do in numbers of ways. You can save the planet by donation.</p>
+                            <button class="survival__donate btn">Donate</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="#articles" class="articles">
+            <div class="wrapper">
+            <h2 class="articles__caption">Latest articles</h2>
+            <p class="articles__subcaption">Breaking news from the wild</p>
+            <div class="slider">
+                <button class="slider__arrow slider_arrow_left">
+                    <img src="./assets/images/arrow.svg" alt="Turn left slider">
+                </button>
+                <div class="slider__content">
+                    <section class="card">
+                        <div class="card__photo">
+                            <img class="card__image" src="assets/images/deer.jpg" alt="Deer photo">
+                        </div>
+                        <h4 class="card__name">Deer</h4>
+                        <p class="card__description">Naturalist investigation</p>
+                    </section>
+                    <section class="card">
+                        <div class="card__photo">
+                            <img class="card__image" src="assets/images/squirrel.jpg" alt="Squirrel">
+                        </div>
+                        <h4 class="card__name">Squirrel</h4>
+                        <p class="card__description">Kamikaze squirrels</p>
+                    </section>
+                    <section class="card">
+                        <div class="card__photo">
+                            <img class="card__image" src="assets/images/bird.jpg" alt="Bird">
+                        </div>
+                        <h4 class="card__name">Bird</h4>
+                        <p class="card__description">Birds Fight club</p>
+                    </section>
+                </div>
+                <button class="slider__arrow slider__arrow_right">
+                    <img src="./assets/images/arrow.svg" alt="Turn right slider">
+                </button>
+            </div>
+            </div>
+        </section>
+        <section class="notified">
+            <div class="wrapper">
+                <h3 class="notified__caption">Get notified about new amazing articles</h3>
+                <form class="form" action="#" method="POST">
+                    <input class="form__input" type="email" placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+                    <button class="form__submit btn" type="submit">Send</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="wrapper">
+            <div class="footer__row">
+                <div class="logo">
+                    <a class="logo__link" href="index.html" arial-label="Link to home page">
+                        <img class="logo__image" src="./assets/images/logo.svg" alt="logotype">
+                    </a>
+                    <h2 class="logo__title">
+                        <a class="logo__link" href="index.html" aria-label="Link to home page">wildlife</a>
+                    </h2>
+                </div>
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__item"><a href="#articles" class="menu__link">Articles</a></li>
+                        <li class="menu__item"><a href="#about" class="menu__link">About us</a></li>
+                        <li class="menu__item"><a href="#learn" class="menu__link">Learn more</a></li>
+                    </ul>
+                </nav>
+                <ul class="socials">
+                    <li class="socials__item"><a href="#" class="menu__link menu__link_fb" aria-label="Link to facebook"></a></li>
+                    <li class="socials__item"><a href="#" class="menu__link menu__link_inst" aria-label="Link to instagram"></a></li>
+                    <li class="socials__item"><a href="#" class="menu__link menu__link_pint" aria-label="Link to pinterest"></a></li>
+                    <li class="socials__item"><a href="#" class="menu__link menu__link_teleg" aria-label="Link to telegram"></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
