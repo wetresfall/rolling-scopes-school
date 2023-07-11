@@ -1,7 +1,7 @@
 # My new projects:
 
-## Name
-### https://wetresfall.github.io/rolling-scopes-school/
+## RS School CV
+### https://wetresfall.github.io/rolling-scopes-school/rsschool-cv/index.html
 
 
 
