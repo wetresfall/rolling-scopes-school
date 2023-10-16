@@ -1,0 +1,250 @@
+/* GENERAL */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  transition: all .4s;
+}
+
+.html {
+  scroll-behavior: smooth;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.slide {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 1rem;
+  width: 40vw;
+  border-radius: 2rem;
+  background-color: #FDE7F3;
+  overflow: hidden;
+}
+
+.slide-heading {
+  margin: auto;
+}
+
+/* HEADER */
+
+.slide-audio {
+  margin: auto;
+}
+
+.audio {
+  width: 49vh;
+  height: 6vh;
+}
+
+/* SLIDE */
+
+.slide-img {
+  display: flex;
+  align-items: center;
+  flex-grow: 2;
+  flex-shrink: 0;
+  width: calc(100% * 5);
+}
+
+.img {
+  width: 20%;
+  max-height: 50vh;
+}
+
+/* FOOTER */
+
+.slide-footer {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.slide-footer-text {
+  display: flex;
+  align-items: center;
+  margin: 0.7rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+.text-container {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  width: calc(100% * 5);
+}
+
+.text {
+  width: 25%;
+  font-size: 1.9rem;
+}
+
+.slide-footer-radio {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+label {
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+}
+
+/* FOOTER LOGIC */
+
+label:active > svg > circle {
+  stroke: #000000;
+  fill: #000000;
+}
+
+body:has(input[value="first"]:checked) input[type=radio]:hover + label > svg > circle {
+  stroke: #42C03B;
+  fill: #91F690;
+}
+
+body:has(input[value="first"]:checked) input[type=radio]:checked + label > svg > circle {
+  fill: #42C03B;
+}
+
+body:has(input[value="first"]:checked) .slide-img, body:has(input[value="first"]:checked) .text-container {
+  color: #42C03B;
+  margin-left: 0;
+}
+
+body:has(input[value="first"]:checked) .wrapper {
+  background-color: #91F690;
+}
+
+body:has(input[value="second"]:checked) input[type=radio]:hover + label > svg > circle {
+  stroke: #7ABCDE;
+  fill: #90E9FB;
+}
+
+body:has(input[value="second"]:checked) input[type=radio]:checked + label > svg > circle {
+  fill: #7ABCDE;
+}
+
+body:has(input[value="second"]:checked) .slide-img, body:has(input[value="second"]:checked) .text-container {
+  color: #7ABCDE;
+  margin-left: -100%;
+}
+
+body:has(input[value="second"]:checked) .wrapper {
+  background-color: #90E9FB;
+}
+
+body:has(input[value="third"]:checked) input[type=radio]:hover + label > svg > circle {
+  stroke: #D858D1;
+  fill: #FDABF7;
+}
+
+body:has(input[value="third"]:checked) input[type=radio]:checked + label > svg > circle {
+  fill: #D858D1;
+}
+
+body:has(input[value="third"]:checked) .slide-img, body:has(input[value="third"]:checked) .text-container {
+  color: #D858D1;
+  margin-left: -200%;
+}
+
+body:has(input[value="third"]:checked) .wrapper {
+  background-color: #FDABF7;
+}
+
+body:has(input[value="fourth"]:checked) input[type=radio]:hover + label > svg > circle {
+  stroke: #9360C3;
+  fill: #A982F7;
+}
+
+body:has(input[value="fourth"]:checked) input[type=radio]:checked + label > svg > circle {
+  fill: #9360C3;
+}
+
+body:has(input[value="fourth"]:checked) .slide-img, body:has(input[value="fourth"]:checked) .text-container {
+  color: #9360C3;
+  margin-left: -300%;
+}
+
+body:has(input[value="fourth"]:checked) .wrapper {
+  background-color: #A982F7;
+}
+
+body:has(input[value="five"]:checked) input[type=radio]:hover + label > svg > circle {
+  stroke: #151515;
+  fill: #121212;
+}
+
+body:has(input[value="five"]:checked) input[type=radio]:checked + label > svg > circle {
+  fill: #151515;
+}
+
+body:has(input[value="five"]:checked) .slide-img, body:has(input[value="five"]:checked) .text-container {
+  color: #151515;
+  margin-left: -400%;
+}
+
+body:has(input[value="five"]:checked) .wrapper {
+  background-color: #121212;
+}
+
+/* ADAPTIVE */
+
+@media (max-width: 1920px) {
+  .audio {
+    width: 49vh;
+    height: 6vh;
+  }
+}
+
+@media (max-width: 1440px) {
+  .audio {
+    width: 40vh;
+    height: 6vh;
+  }
+}
+
+@media (max-width: 1265px) {
+  .audio {
+    width: 30vh;
+    height: 6vh;
+  }
+}
+
+@media (max-width: 1023px) {
+  .slide-footer {
+    flex-direction: column;
+  }
+
+  .slide-footer-radio {
+    align-self: center;
+  }
+}
+
+@media (max-width: 800px) {
+  .audio {
+    width: 20vh;
+    height: 6vh;
+  }
+}
+
+@media (max-width: 500px) {
+  .audio {
+    width: 15vh;
+    height: 6vh;
+  }
+}
