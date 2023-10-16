@@ -1,9 +1,13 @@
 # My new projects:
 
+## Library
+### https://wetresfall.github.io/rolling-scopes-school/library/index.html
+
+## cssMemeSlider
+### https://wetresfall.github.io/rolling-scopes-school/cssMemeSlider/index.html
+
 ## RS School CV
 ### https://wetresfall.github.io/rolling-scopes-school/rsschool-cv/index.html
-
-
 
 # My old newbie projects:
 
